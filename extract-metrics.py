@@ -63,7 +63,7 @@ fig = plt.figure(figsize = (10, 5))
 plt.bar(activities, label_count, color ='maroon',
         width = 0.4)
  
-plt.xlabel("Courses offered")
-plt.ylabel("No. of students enrolled")
-plt.title("Students enrolled in different courses")
+plt.xlabel("activity")
+plt.ylabel("percentage")
+plt.title("percentage of data for each activity")
 plt.show()
